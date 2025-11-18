@@ -148,9 +148,4 @@ public class Mapa {
         System.out.println("Não encontrou saída");
         return false;
     }
-
-    public static void main(String[] args) {
-        Mapa mapa = new Mapa("D:\\Development\\Code\\Java" +
-                "\\Engenharia-de-Software\\Atividade-1\\src\\mapa2.txt", 17, 21);
-    }
 }
