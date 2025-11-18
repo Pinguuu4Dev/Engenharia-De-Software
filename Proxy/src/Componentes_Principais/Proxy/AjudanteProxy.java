@@ -1,12 +1,12 @@
-package Componentes_Principais;
+package Componentes_Principais.Proxy;
 
 import Entidades.Ajudante;
 import Entidades.Heroi;
 
-public class AjudanteProxy {
+public class AjudanteProxy extends Proxy {
 
     public AjudanteProxy(Ajudante ajudante, Heroi heroi) {
-        System.out.println("Fez um log de ajudante");
+        writeToLog("Herói se aproximou de um " + ajudante.getTipo());
         ajudante.ofereceAjuda(heroi);
     }
 

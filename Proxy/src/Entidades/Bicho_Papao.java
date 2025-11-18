@@ -17,5 +17,5 @@ public class Bicho_Papao extends Entidade implements Monstro {
     }
 
     @Override
-    public String getDescricao() { return "Bicho Papão"; }
+    public String getTipo() { return "Bicho Papão"; }
 }

@@ -1,6 +1,6 @@
 package Entidades.Factory;
 
-import Componentes_Principais.ItemProxy;
+import Componentes_Principais.Proxy.ItemProxy;
 import Entidades.Heroi;
 import Itens.BonusItem;
 import Itens.Espada;
@@ -12,6 +12,6 @@ public class EspadaFactory extends SpawnFactory {
         Item espada = new Espada(BonusItem.BONUS_ESPADA);
         System.out.println("🗡️ Você encontrou uma Espada!");
 
-        ItemProxy proxy = new ItemProxy(espada, heroi);
+        ItemProxy proxyEspada = new ItemProxy(espada, heroi);
     }
 }

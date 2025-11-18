@@ -1,5 +1,6 @@
 package Entidades.Factory;
 
+import Componentes_Principais.Proxy.AjudanteProxy;
 import Entidades.Ajudante;
 import Entidades.Duende;
 import Entidades.Heroi;
@@ -10,6 +11,7 @@ public class DuendeFactory extends SpawnFactory {
     public void spawn(Heroi heroi) {
         Ajudante duende = new Duende();
         System.out.println("🧝 Um Duende apareceu!");
-        duende.ofereceAjuda(heroi);
+
+        AjudanteProxy proxyDuende = new AjudanteProxy(duende, heroi);
     }
 }

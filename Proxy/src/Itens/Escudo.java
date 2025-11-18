@@ -24,4 +24,9 @@ public class Escudo extends Item {
     public String getTipo() {
         return "Escudo";
     }
+
+    @Override
+    public String getTipoBonus(){
+        return "Defesa";
+    }
 }

@@ -3,7 +3,7 @@ package Entidades;
 public class Duende implements Ajudante {
     @Override
     public void acaoMonstro(Monstro monstro) {
-        System.out.println("[Duende] observa o monstro: " + monstro.getDescricao());
+        System.out.println("[Duende] observa o monstro: " + monstro.getTipo());
     }
 
     @Override

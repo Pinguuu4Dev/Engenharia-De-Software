@@ -1,5 +1,6 @@
 package Entidades.Factory;
 
+import Componentes_Principais.Proxy.ItemProxy;
 import Entidades.Heroi;
 import Itens.BonusItem;
 import Itens.Cura;
@@ -10,6 +11,7 @@ public class CuraFactory extends SpawnFactory {
     public void spawn(Heroi heroi) {
         Item cura = new Cura(BonusItem.BONUS_CURA);
         System.out.println("❤️ Você encontrou uma Poção de Cura!");
-        cura.aplicaBonusHeroi(heroi);
+
+        ItemProxy curaProxy = new ItemProxy(cura, heroi);
     }
 }

@@ -1,6 +1,6 @@
 package Entidades.Factory;
 
-import Componentes_Principais.AjudanteProxy;
+import Componentes_Principais.Proxy.AjudanteProxy;
 import Entidades.Ajudante;
 import Entidades.Anao;
 import Entidades.Heroi;
@@ -11,6 +11,6 @@ public class AnaoFactory extends SpawnFactory {
         Ajudante anao = new Anao();
         System.out.println("🔨 Um Anão apareceu!");
 
-        AjudanteProxy proxy = new AjudanteProxy(anao, heroi);
+        AjudanteProxy proxyAnao = new AjudanteProxy(anao, heroi);
     }
 }

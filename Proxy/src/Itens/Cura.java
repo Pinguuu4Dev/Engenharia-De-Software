@@ -23,4 +23,9 @@ public class Cura extends Item {
     public String getTipo() {
         return "Cura";
     }
+
+    @Override
+    public String getTipoBonus(){
+        return "Cura";
+    }
 }

@@ -17,6 +17,7 @@ public abstract class Item {
     public abstract void retiraBonusHeroi(Heroi heroi);
     public abstract void imprimeDescricao();
     public abstract String getTipo();
+    public abstract String getTipoBonus();
 
     // Método auxiliar para "pegar" o item no chão e guardar no inventário
     public void juntar(Heroi heroi) {

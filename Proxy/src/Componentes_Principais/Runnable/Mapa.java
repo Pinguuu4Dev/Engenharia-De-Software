@@ -1,12 +1,12 @@
-package Componentes_Principais;
+package Componentes_Principais.Runnable;
 
+import Componentes_Principais.Proxy.HeroiProxy;
 import Entidades.*;
 import Entidades.Factory.*;
-import Itens.*;
 
 import java.io.*;
 
-public class Mapa {
+public class    Mapa {
     private char matriz[][];
     private int numeroLinhas;
     private int numeroColunas;
@@ -69,7 +69,8 @@ public class Mapa {
 
     public boolean encontraSaida(int x, int y) {
         if (this.heroi.getVida() <= 0) {
-            System.out.println("💀 O herói morreu!");
+            HeroiProxy heroiProxy = new HeroiProxy(0, heroi);
+            heroiProxy.setBoundsToLog();
             return false;
         }
 
@@ -79,7 +80,8 @@ public class Mapa {
 
         switch (simbolo) {
             case '=':
-                System.out.println("🏆 O herói encontrou a saída!");
+                HeroiProxy heroiProxy = new HeroiProxy(1, heroi);
+                heroiProxy.setBoundsToLog();
                 return true;
 
             // --- Monstros ---

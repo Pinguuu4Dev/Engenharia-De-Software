@@ -15,7 +15,9 @@ public class Mochila
 
         System.out.println("| Itens da mochila:");
         while (iterator.hasNext()) {
-            System.out.println("- " + iterator.next());
+            Item currentItem = iterator.next();
+
+            System.out.println("| " + currentItem.getTipo() + ": +" + currentItem.getBonus() + " de " + currentItem.getTipoBonus());
         }
     }
 }

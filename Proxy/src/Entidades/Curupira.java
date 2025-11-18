@@ -17,5 +17,5 @@ public class Curupira extends Entidade implements Monstro {
     }
 
     @Override
-    public String getDescricao() { return "Curupira"; }
+    public String getTipo() { return "Curupira"; }
 }

@@ -1,0 +1,17 @@
+---------------------------
+17/11/2025 23:02:09 Herói se aproximou de um Anão
+17/11/2025 23:02:09 Herói encontrou uma Espada
+17/11/2025 23:02:10 Herói encontrou uma Espada
+17/11/2025 23:02:10 Herói encontrou uma Espada
+17/11/2025 23:02:10 Herói encontrou uma Cura
+17/11/2025 23:02:10 Herói encontrou um Escudo
+17/11/2025 23:02:11 Herói encontrou um Escudo
+17/11/2025 23:02:11 Herói encontrou um Escudo
+17/11/2025 23:02:17 Herói se aproximou de um Anão
+17/11/2025 23:02:18 Herói encontrou uma Cura
+17/11/2025 23:02:19 Herói vai batalhar contra um Bicho Papão
+17/11/2025 23:02:21 Herói se aproximou de um Duende
+17/11/2025 23:02:22 Herói encontrou um Escudo
+17/11/2025 23:02:23 Herói vai batalhar contra um Curupira
+17/11/2025 23:02:24 Herói encontrou a saída do labirinto!
+---------------------------
